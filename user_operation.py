@@ -68,7 +68,7 @@ class UserOperation:
         """ 
             write user info to file
             return: Boolean
-            If you have any questions, please contact me, wechat: juing529
+            
         """
         try:
             with open(self.user_info_path, 'w') as f:
